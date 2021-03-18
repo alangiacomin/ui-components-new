@@ -4,9 +4,9 @@ import { PropTypes } from 'prop-types';
 import { useMemo } from 'react';
 import { Provider } from 'react-redux';
 import { Route, Switch } from 'react-router-dom';
-import ProtectedRoute from '../ProtectedRoute/ProtectedRouteComponent';
-import configureAppStore from '../../utils/configureAppStore';
 import { emptyArrayIfNull } from '../../utils/arrayHelper';
+import { configureAppStore } from '../../utils/configureAppStore';
+import ProtectedRoute from '../ProtectedRoute/ProtectedRouteComponent';
 
 // const importRoute = (nomeRoute) => import(`./components/${nomeRoute}/${nomeRoute}`);
 // const importComponent = (name) => import(`./components/${name}/${name}`);

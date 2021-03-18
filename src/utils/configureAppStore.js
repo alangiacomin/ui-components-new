@@ -36,4 +36,5 @@ const configureAppStore = ({
   return store;
 };
 
-export default configureAppStore;
+// eslint-disable-next-line import/prefer-default-export
+export { configureAppStore };
