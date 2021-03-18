@@ -11,7 +11,7 @@
   "bugs": {
     "url": "https://github.com/alangiacomin/ui-components/issues"
   },
-  "bundleDependencies": false,
+  "bundleDependencies": [],
   "contributors": [
     {
       "name": "Alan Giacomin",
@@ -138,5 +138,5 @@
     "createIndex": "node scripts/createIndex.js"
   },
   "sideEffects": false,
-  "version": "0.0.1"
+  "version": "0.0.2"
 }
