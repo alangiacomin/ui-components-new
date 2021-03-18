@@ -128,6 +128,7 @@
     "lint": "eslint --ext .jsx src/**/*.{js,jsx}",
     "lint:watch": "esw --watch --color --ext .jsx src/**/*.{js,jsx}",
     "test": "jest --verbose",
+    "test:watch": "npm run test -- --watch",
     "typings": "copy index.js index.d.ts",
     "v:patch": "npm run createIndex && npm version patch && git push origin master --tags && npm run v:publish",
     "v:publish": "npm publish --access public",
